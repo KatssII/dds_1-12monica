@@ -13,7 +13,7 @@ public class Ex16 {
         Double coberturaDaTinta = areaEmMetrosQuadrados / quantidadeDeLitrosPorMetro;
         Double quantidadeDeLata =  coberturaDaTinta / quantidadeDeLataPorTinta;
         Double total = quantidadeDeLata * valorPorLata;
-        Double quantidadeDeLataArredondado = Math.ceil(quantidadeDeLata);
+                        Double quantidadeDeLataArredondado = Math.ceil(quantidadeDeLata);
         System.out.println("A quantidade de latas é: " + quantidadeDeLataArredondado);
         System.out.print("O valor total é: " + total);
         scanner.close();
